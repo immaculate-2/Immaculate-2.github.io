@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+       max-width: 1200px; 
+       margin: 0 auto;
+       padding: 20px
+       background-color: #f0f7f0;
+     }
+     h1{
+      color: #2d6a4f;
+      font-size: 36px;
+     }
+     p{
+      color: #333333;
+      line-height: 1.6;
+     }
+     .project {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 1.0);
+      flex: 0 0 250px;
+     }
+     
+
+.portfolio-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+     button{
+      background-color: #2d6a4f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor:pointer;
+     }
+     img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+     }
+
+     .header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 20px;
+     }
+
+     .divider{
+      border-style: none;
+      border-top: 2px dottedv#e0a0a0;
+      margin:  20px 0;
+     }
+
+     .skills-tags{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+     }
+
+     .skill-tag{
+      border: 1px solid #333;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+     }
+
+.highlights  {
+  list-style: none;
+  padding: 0;
+}
+.highlights li:: before {
+  content: "*";
+  color: #2a2a8f;
+}
+   </style>
+</head>
+<body>
+  <div class="header">
+ <img src="profile.jpg" alt="Immaculate Chandia">
+ <div>
+<h1>Immaculate Chandia</h1>
+<p>Software Developer & AI specialist</p>
+<p>Iam a passionate software developer with a strong interest in artificial intelligence and emerging technologies. i specialise in building intelligent web application that solve real worl problems. with a drive continous learning and innovation, iam commited to creating technology that makes a meaningful impact.<p>
+</div>
+</div>
+<hr class="divider">
+<h2> Skills</h2>
+<div class="skill-tags"> 
+  <span class="skill-tag"> HTML</span>
+  <span class="skill-tag">CSS</span>
+  <span class="skill-tag">Java script</span>
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">Ai Developement</span>
+</div>
+
+<hr class="divider">
+<h2>Career Highlights</h2>
+<ul class="Highlights">
+<li>Software Developement & AI speciaist</li>
+<li>Developing Intelligent web applications using modern technologies.</li>
+<li>Building AI- powered solutions that solve real-world problems</li>
+<li>continously learning and applying emerging technologies in software developement.</li>
+</ul>
+<hr class="divider">
+<h2>Portfolio</h2>
+<div class="portfolio-grid">
+  <div class="project">
+  <h3>Project one</h3>
+  <p> A web application built using HTM,CSS and Javascript.</p>
+  <button>try it out</button>
+</div>
+
+<div class="project">
+  <h3>Project two</h3>
+  <p>An AI powered solution built using python.</p>
+  <button>Take closer look</button>
+</div>
+
+<div class="project">
+  <h3> Project Three</h3>
+  <p>A mobile application built for ios and Android.</p>
+  <button>View Project</button>
+</div>
+</div>
+</body>
+</html>
